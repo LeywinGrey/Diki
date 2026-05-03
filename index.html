@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CampusConnect - Empowering Student Excellence Through Innovation">
+  <title>CampusConnect - Student Organization</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container navbar-container">
+      <a href="#" class="navbar-logo">
+        <img src="foto/logo.png" alt="Logo" class="logo-img">
+        <span>UNPAM <span class="gradient-text">PKM</span></span>
+      </a>
+      <ul class="navbar-nav" id="navMenu">
+        <li><a href="#home" class="navbar-link">Home</a></li>
+        <li><a href="#about" class="navbar-link">About</a></li>
+        <li><a href="#team" class="navbar-link">Team</a></li>
+        <li><a href="#journey" class="navbar-link">Journey</a></li>
+        <li><a href="#gallery" class="navbar-link">Gallery</a></li>
+        <li><a href="#contact" class="btn btn-primary">Contact Us</a></li>
+      </ul>
+      <button class="navbar-toggle" id="navToggle" aria-label="Toggle menu">
+        <svg class="icon-lg" viewBox="0 0 24 24">
+          <path d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-blob hero-blob-1"></div>
+      <div class="hero-blob hero-blob-2"></div>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          <span>PKM 2026</span>
+        </div>
+        <h1 class="hero-title">
+          Mendukung Siswa Untuk <span class="gradient-text">Menciptakan dan Membuka Peluang Bisnis</span>
+        </h1>
+        <p class="hero-description">
+          Bergabunglah dalam kegiatan pengabdian kepada masyarakat yang inspiratif, di mana kolaborasi dan kepedulian menjadi satu. Dokumentasikan setiap kontribusi Anda, abadikan dampak yang tercipta, dan bangun hubungan yang bermakna dengan masyaraka.
+        </p>
+        <div class="hero-buttons">
+          <a href="#journey" class="btn btn-primary">
+            <svg class="icon" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10"/>
+              <polygon points="10,8 16,12 10,16"/>
+            </svg>
+            Perjalanan Kami
+          </a>
+          <a href="#team" class="btn btn-secondary">
+            <svg class="icon" viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+            Anggota
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll to explore</span>
+      <svg class="icon" viewBox="0 0 24 24">
+        <path d="M12 5v14M19 12l-7 7-7-7"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section-title">Tentang <span class="gradient-text">Kami</span></h2>
+      <p class="section-subtitle">
+        Kenali siapa kami dan apa yang mendorong komitmen kami dalam kegiatan pengabdian kepada masyarakat serta pembangunan komunitas
+      </p>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 16v-4M12 8h.01"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">Misi Kami</h3>
+          <p class="about-card-text">
+            Mendorong mahasiswa untuk berkembang, peduli, dan berkontribusi melalui Pengabdian kepada Masyarakat (PKM). Kegiatan ini dilaksanakan di SMK dengan fokus pada edukasi dan pengembangan bisnis bagi siswa.
+          </p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+              <path d="M12 20V10M18 20V4M6 20v-4"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">Siapa Kami</h3>
+          <p class="about-card-text">
+            Kami adalah mahasiswa yang berkomitmen memberikan dampak melalui PKM di SMK, dengan fokus pada edukasi dan pengembangan bisnis bagi siswa
+          </p>
+        </div>
+      </div>
+      <div class="about-features">
+        <div class="about-feature">
+          <div class="about-feature-icon">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+              <path d="M2 17l10 5 10-5"/>
+              <path d="M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <div>
+            <h4 class="about-feature-title">Pengembangan Jiwa Kewirausahaan</h4>
+            <p class="about-feature-text">Mendorong siswa SMK untuk memahami dan mengembangkan potensi bisnis melalui edukasi dan praktik langsung.</p>
+          </div>
+        </div>
+        <div class="about-feature">
+          <div class="about-feature-icon">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <div>
+            <h4 class="about-feature-title">Pemberdayaan Masyarakat Sekolah</h4>
+            <p class="about-feature-text">Membangun kolaborasi antara mahasiswa dan siswa untuk menciptakan dampak positif yang berkelanjutan.</p>
+          </div>
+        </div>
+        <div class="about-feature">
+          <div class="about-feature-icon">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+              <path d="M12 17h.01"/>
+            </svg>
+          </div>
+          <div>
+            <h4 class="about-feature-title">Pelatihan Keterampilan Bisnis</h4>
+            <p class="about-feature-text">Sesi praktik yang membahas perencanaan usaha, pemasaran, hingga pengelolaan bisnis sederhana.</p>
+          </div>
+        </div>
+        <div class="about-feature">
+          <div class="about-feature-icon">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <div>
+            <h4 class="about-feature-title">Kegiatan Edukatif & Inspiratif</h4>
+            <p class="about-feature-text">Menghadirkan kegiatan interaktif yang memotivasi siswa untuk berani memulai dan mengembangkan ide usaha.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="section" id="team">
+    <div class="container">
+      <h2 class="section-title">Kenali <span class="gradient-text">Tim</span> kami</h2>
+      <p class="section-subtitle">
+        Individu-individu berdedikasi di balik keberhasilan kegiatan kami. Setiap anggota membawa keterampilan dan perspektif unik untuk mendukung kegiatan Pengabdian kepada Masyarakat (PKM).
+      </p>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar">
+            <img src="foto/diki.jpg" alt="Diki Almaki">
+          </div>
+          <h3 class="team-name">DIKI ALMAKI</h3>
+          <p class="team-role">Ketua</p>
+          <p class="team-bio">Memimpin dengan visi dan semangat. Diki mendorong inisiatif strategis kami dan memastikan setiap anggota merasa dihargai.</p>
+          <div class="team-socials">
+            <a href="#" class="team-social" aria-label="WhatsApp">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+              </svg>
+            </a>
+            <a href="#" class="team-social" aria-label="Instagram">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" class="team-social" aria-label="Email">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">
+            <img src="images/team/michael-chen.jpg" alt="nanang ">
+          </div>
+          <h3 class="team-name">Nanang</h3>
+          <p class="team-role">Wakil Ketua</p>
+          <p class="team-bio">Seorang wakil ketua yang memiliki kemampuan organisasi dan komunikasi yang baik. Bertanggung jawab dalam mengoordinasikan kegiatan serta menjalin kerja sama dalam pelaksanaan program PKM.</p>
+          <div class="team-socials">
+            <a href="#" class="team-social" aria-label="WhatsApp">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+              </svg>
+            </a>
+            <a href="#" class="team-social" aria-label="Instagram">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" class="team-social" aria-label="Email">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">
+            <img src="images/team/emily-rodriguez.jpg" alt="Intan">
+          </div>
+          <h3 class="team-name">Intan Jelek</h3>
+          <p class="team-role">Diem Aja</p>
+          <p class="team-bio">Ga ada kontirbus.</p>
+          <div class="team-socials">
+            <a href="#" class="team-social" aria-label="WhatsApp">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+              </svg>
+            </a>
+            <a href="#" class="team-social" aria-label="Instagram">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" class="team-social" aria-label="Email">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">
+            <img src="images/team/kesa" alt="Kesa">
+          </div>
+          <h3 class="team-name">Kesa Kesa</h3>
+          <p class="team-role">Anggota</p>
+          <p class="team-bio">Anggota.</p>
+          <div class="team-socials">
+            <a href="#" class="team-social" aria-label="WhatsApp">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+              </svg>
+            </a>
+            <a href="#" class="team-social" aria-label="Instagram">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" class="team-social" aria-label="Email">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">
+            <img src="images/team/anton.jpg" alt="Anton">
+          </div>
+          <h3 class="team-name">Anton</h3>
+          <p class="team-role">Tukang Makan</p>
+          <p class="team-bio">Jagoan Dapur.</p>
+          <div class="team-socials">
+            <a href="#" class="team-social" aria-label="WhatsApp">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+              </svg>
+            </a>
+            <a href="#" class="team-social" aria-label="Instagram">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" class="team-social" aria-label="Email">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">
+            <img src="images/team/kicaw.jpg" alt="kicaw">
+          </div>
+          <h3 class="team-name">Kicaw Mania</h3>
+          <p class="team-role">Dokumentas</p>
+          <p class="team-bio">tukang foto.</p>
+          <div class="team-socials">
+            <a href="#" class="team-social" aria-label="WhatsApp">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+              </svg>
+            </a>
+            <a href="#" class="team-social" aria-label="Instagram">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" class="team-social" aria-label="Email">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="section timeline" id="journey">
+    <div class="container">
+      <h2 class="section-title">Perjalanan <span class="gradient-text">Kami</span></h2>
+      <p class="section-subtitle">
+        Dari langkah awal hingga menghasilkan dampak nyata. Ikuti perjalanan kami dalam melaksanakan kegiatan Pengabdian kepada Masyarakat (PKM) dan berbagai pencapaian yang telah diraih.
+      </p>
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+        
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">2026</span>
+            <h3 class="timeline-title">Pembentukan Kelompok</h3>
+            <p class="timeline-text">Lagi gabut tiba tiba kepingin ribet tapi rame rame.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">2026</span>
+            <h3 class="timeline-title">Rekrutan pertama</h3>
+            <p class="timeline-text">Intan menjadi korban pertama.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">2026</span>
+            <h3 class="timeline-title">Kemimpinan Diki</h3>
+            <p class="timeline-text">Diki menunjukan aura farming dengan elegan.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">2024</span>
+            <h3 class="timeline-title">Pelaksanaan</h3>
+            <p class="timeline-text">Melakukan kegiatan di hari h.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <circle cx="12" cy="8" r="7"/>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">2026</span>
+            <h3 class="timeline-title">Penghargaan untuk Tim ini</h3>
+            <p class="timeline-text">Cukup dengan Acungkan Jempol saja.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Gallery Section -->
+<section class="section gallery" id="gallery">
+  <div class="container">
+    <h2 class="section-title">Activity <span class="gradient-text">Gallery</span></h2>
+    <p class="section-subtitle">
+      Dokumentasi kegiatan Pengabdian kepada Masyarakat (PKM) di SMK yang berfokus pada edukasi dan pengembangan bisnis.
+    </p>
+
+    <div class="gallery-grid">
+
+      <div class="gallery-item">
+        <img src="foto/pkm1.jpg" alt="Kegiatan PKM">
+        <div class="gallery-overlay">
+          <h4 class="gallery-title">Kegiatan PKM</h4>
+          <p class="gallery-date">Mei 2026</p>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="foto/pkm2.jpg" alt="Workshop Bisnis">
+        <div class="gallery-overlay">
+          <h4 class="gallery-title">Workshop Bisnis</h4>
+          <p class="gallery-date">Mei 2026</p>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="foto/pkm3.jpg" alt="Presentasi Siswa">
+        <div class="gallery-overlay">
+          <h4 class="gallery-title">Presentasi Siswa</h4>
+          <p class="gallery-date">Mei 2026</p>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="foto/pkm4.jpg" alt="Diskusi Kelompok">
+        <div class="gallery-overlay">
+          <h4 class="gallery-title">Diskusi Kelompok</h4>
+          <p class="gallery-date">Mei 2026</p>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="foto/pkm5.jpg" alt="Pelatihan Bisnis">
+        <div class="gallery-overlay">
+          <h4 class="gallery-title">Pelatihan Bisnis</h4>
+          <p class="gallery-date">Mei 2026</p>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="foto/pkm6.jpg" alt="Foto Bersama">
+        <div class="gallery-overlay">
+          <h4 class="gallery-title">Foto Bersama</h4>
+          <p class="gallery-date">Mei 2026</p>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="foto/pkm7.jpg" alt="Kegiatan Lapangan">
+        <div class="gallery-overlay">
+          <h4 class="gallery-title">Kegiatan Lapangan</h4>
+          <p class="gallery-date">Mei 2026</p>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="foto/pkm8.jpg" alt="Sesi Tanya Jawab">
+        <div class="gallery-overlay">
+          <h4 class="gallery-title">Sesi Tanya Jawab</h4>
+          <p class="gallery-date">Mei 2026</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="gallery-cta">
+      <a href="#" class="btn btn-secondary">
+        Lihat Semua Dokumentasi
+      </a>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="foto/logo.png" alt="Logo" class="logo-img">
+            <span>UNPAM <span class="gradient-text">Connect</span></span>
+          </div>
+          <p class="footer-description">
+            Memberdayakan siswa untuk meraih keunggulan melalui kolaborasi, kepemimpinan, dan keterlibatan komunitas.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social" aria-label="Instagram">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <!--<a href="#" class="footer-social" aria-label="Twitter">
+              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+              </svg>
+            </a>-->
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Link Cepat</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#journey">Journey</a></li>
+            <li><a href="#">Events</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:dikilagu123@gmail.com">diki@gmail.com</a></li>
+            <li><a href="tel:0857179257**">0857179257**</a></li>
+            <li><a href="#About">Gedung B, Lt.6, Raungan 621</a></li>
+            <li><a href="#About">Universitas Pamulang</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy;2026 Diki project</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile navigation toggle
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+
+    navToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+
+    // Close menu when clicking a link
+    document.querySelectorAll('.navbar-link').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+      });
+    });
+
+    // Navbar background on scroll
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.style.background = 'rgba(12, 22, 41, 0.95)';
+      } else {
+        navbar.style.background = 'rgba(12, 22, 41, 0.8)';
+      }
+    });
+  </script>
+</body>
+</html>
