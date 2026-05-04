@@ -2,3 +2,107 @@ Perjalanan Kami ganti jadi penjalanan acara
 
      <!----- <div class="hero-bg-image"></div>
       <div class="hero-bg-overlay"></div>-----> ini untuk ganti backgroiung 
+
+      
+
+            <h2 class="section-title">Analisis Usaha & <span class="gradient-text">Edukasi</span></h2>
+      <p class="section-subtitle">
+        Pemahaman dasar perencanaan bisnis untuk mendukung kegiatan kewirausahaan siswa
+      </p>
+      <div class="about-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+        <!-- Card 1: Tentang Usaha -->
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">📖 Tentang Usaha</h3>
+          <p class="about-card-text">
+            <strong>Latar belakang:</strong> Menumbuhkan jiwa wirausaha siswa SMK YAPRI Jakarta<br><br>
+            <strong>Tim:</strong> Intan, Sherly, Shalumsyah<br><br>
+            <strong>Nilai:</strong> Mandiri, kreatif, edukatif
+          </p>
+        </div>
+
+        <!-- Card 2: HPP -->
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/>
+              <path d="M12 18V6"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">💰 Harga Pokok Produksi (HPP)</h3>
+          <p class="about-card-text">
+            <strong>Total biaya:</strong> Rp165.000<br><br>
+            <strong>Per bungkus:</strong> Rp2.750<br><br>
+            <strong>Komponen:</strong> Bahan baku, tenaga kerja, overhead
+          </p>
+        </div>
+
+        <!-- Card 3: RAB -->
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+              <path d="M3 3v18h18"/>
+              <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">📊 Rencana Anggaran Biaya (RAB)</h3>
+          <p class="about-card-text">
+            <strong>Modal awal:</strong> Rp800.000<br><br>
+            <strong>Terdiri dari:</strong> Bahan baku, tenaga kerja, operasional, promosi
+          </p>
+        </div>
+
+        <!-- Card 4: BEP -->
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+              <path d="M12 3v18"/>
+              <path d="m8 8 4-5 4 5"/>
+              <path d="M8 16l4 5 4-5"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">⚖️ Break Even Point (BEP)</h3>
+          <p class="about-card-text">
+            <strong>BEP:</strong> 111 bungkus<br><br>
+            <strong>Keuntungan:</strong> Rp7.250 per bungkus
+          </p>
+        </div>
+
+        <!-- Card 5: Pengembalian Modal -->
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">⏳ Pengembalian Modal</h3>
+          <p class="about-card-text">
+            <strong>Penjualan:</strong> 60 bungkus/hari<br><br>
+            <strong>Laba:</strong> Rp435.000/hari<br><br>
+            <strong>Balik modal:</strong> ± 2 hari
+          </p>
+        </div>
+
+        <!-- Card 6: Strategi & Edukasi -->
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">📈 Strategi & Edukasi</h3>
+          <p class="about-card-text">
+            • Gunakan bahan lokal<br>
+            • Promosi media sosial & word of mouth<br>
+            • Evaluasi berkala<br>
+            • Media pembelajaran wirausaha siswa
+          </p>
+        </div>
+      </div>

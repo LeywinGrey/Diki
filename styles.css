@@ -438,13 +438,14 @@ body {
 /* About Section */
 .about {
   background: var(--color-bg-light);
+  padding-bottom: 0rem; 
 }
 
 .about-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .about-card {
@@ -526,8 +527,8 @@ body {
 
 /* Materi Section */
 .materi-section {
-  margin-top: 4rem;
-  padding-top: 3rem;
+  margin-top: 0%;
+  padding-top: 2rem;
   border-top: 1px solid var(--color-border);
 }
 
@@ -828,6 +829,12 @@ body {
   font-size: 0.875rem;
   font-weight: 500;
   margin-bottom: 1rem;
+}
+
+.team-role-nim {
+  color: var(--color-primary-light);
+  font-size: 0.875rem;
+  font-weight: 500;
 }
 
 .team-bio {
