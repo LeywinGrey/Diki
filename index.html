@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="CampusConnect - Empowering Student Excellence Through Innovation">
-  <title>CampusConnect - Student Organization</title>
+  <title>PKM Next Game Project</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,11 +14,12 @@
     <div class="container navbar-container">
       <a href="#" class="navbar-logo">
         <img src="foto/logo.png" alt="Logo" class="logo-img">
-        <span>UNPAM <span class="gradient-text">PKM</span></span>
+        <span>PKM <span class="gradient-text">NEXT GAME PROJECT</span></span>
       </a>
       <ul class="navbar-nav" id="navMenu">
         <li><a href="#home" class="navbar-link">Home</a></li>
         <li><a href="#about" class="navbar-link">About</a></li>
+        <li><a href="#analysis" class="navbar-link">Analisis</a></li>
         <li><a href="#team" class="navbar-link">Team</a></li>
         <li><a href="#journey" class="navbar-link">Journey</a></li>
         <li><a href="#gallery" class="navbar-link">Gallery</a></li>
@@ -35,6 +36,8 @@
   <!-- Hero Section -->
   <section class="hero" id="home">
     <div class="hero-bg">
+     <div class="hero-bg-image"></div>
+      <div class="hero-bg-overlay"></div>
       <div class="hero-blob hero-blob-1"></div>
       <div class="hero-blob hero-blob-2"></div>
     </div>
@@ -42,28 +45,29 @@
       <div class="hero-content">
         <div class="hero-badge">
           <span class="hero-badge-dot"></span>
-          <span>PKM 2026</span>
+          <span>PKM Next Project</span>
         </div>
         <h1 class="hero-title">
-          Mendukung Siswa Untuk <span class="gradient-text">Menciptakan dan Membuka Peluang Bisnis</span>
+          Strategi Pengelolaan Modal dan Perhitungan Harga Pokok Produksi(HPP) <span class="gradient-text">Pada Usaha Keripik Pisang Lumer</span>
         </h1>
         <p class="hero-description">
           Bergabunglah dalam kegiatan pengabdian kepada masyarakat yang inspiratif, di mana kolaborasi dan kepedulian menjadi satu. Dokumentasikan setiap kontribusi Anda, abadikan dampak yang tercipta, dan bangun hubungan yang bermakna dengan masyaraka.
         </p>
         <div class="hero-buttons">
-          <a href="#journey" class="btn btn-primary">
-            <svg class="icon" viewBox="0 0 24 24">
-              <circle cx="12" cy="12" r="10"/>
-              <polygon points="10,8 16,12 10,16"/>
-            </svg>
-            Perjalanan Kami
+          <a href="#journey" class="btn-play-wrapper">
+            <span class="play-icon-circle">
+              <!-- solid filled play triangle -->
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="3,1 15,8 3,15" fill="white"/>
+              </svg>
+            </span>
+            <span class="btn-play-label">Perjalanan Kami</span>
           </a>
           <a href="#team" class="btn btn-secondary">
-            <svg class="icon" viewBox="0 0 24 24">
-              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-              <circle cx="9" cy="7" r="4"/>
-              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            <!-- Inline SVG person icon (head + shoulders silhouette) -->
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="4"/>
+              <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
             </svg>
             Anggota
           </a>
@@ -95,7 +99,7 @@
           </div>
           <h3 class="about-card-title">Misi Kami</h3>
           <p class="about-card-text">
-            Mendorong mahasiswa untuk berkembang, peduli, dan berkontribusi melalui Pengabdian kepada Masyarakat (PKM). Kegiatan ini dilaksanakan di SMK dengan fokus pada edukasi dan pengembangan bisnis bagi siswa.
+            Mendorong mahasiswa untuk berkembang, peduli, dan berkontribusi melalui Pengabdian kepada Masyarakat (PKM). Kegiatan ini dilaksanakan di SMKS YAPRI Jakarta dengan fokus pada edukasi dan pengembangan bisnis bagi siswa.
           </p>
         </div>
         <div class="about-card">
@@ -106,7 +110,7 @@
           </div>
           <h3 class="about-card-title">Siapa Kami</h3>
           <p class="about-card-text">
-            Kami adalah mahasiswa yang berkomitmen memberikan dampak melalui PKM di SMK, dengan fokus pada edukasi dan pengembangan bisnis bagi siswa
+            Kami adalah mahasiswa yang berkomitmen memberikan dampak melalui PKM di SMKS YAPRI Jakarta, dengan fokus pada edukasi dan pengembangan bisnis bagi siswa
           </p>
         </div>
       </div>
@@ -121,7 +125,7 @@
           </div>
           <div>
             <h4 class="about-feature-title">Pengembangan Jiwa Kewirausahaan</h4>
-            <p class="about-feature-text">Mendorong siswa SMK untuk memahami dan mengembangkan potensi bisnis melalui edukasi dan praktik langsung.</p>
+            <p class="about-feature-text">Mendorong siswa SMKS YAPRI Jakarta untuk memahami dan mengembangkan potensi bisnis melalui edukasi dan praktik langsung.</p>
           </div>
         </div>
         <div class="about-feature">
@@ -151,18 +155,418 @@
             <p class="about-feature-text">Sesi praktik yang membahas perencanaan usaha, pemasaran, hingga pengelolaan bisnis sederhana.</p>
           </div>
         </div>
-        <div class="about-feature">
-          <div class="about-feature-icon">
-            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
-              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
-              <line x1="16" y1="2" x2="16" y2="6"/>
-              <line x1="8" y1="2" x2="8" y2="6"/>
-              <line x1="3" y1="10" x2="21" y2="10"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- Analysis Section -->
+  <section class="section about" id="analysis">
+    <div class="container">
+      <h2 class="section-title">Analisis Usaha & <span class="gradient-text">Edukasi</span></h2>
+      <p class="section-subtitle">
+        Pemahaman dasar perencanaan bisnis untuk mendukung kegiatan kewirausahaan siswa
+      </p>
+      <div class="about-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+        <!-- Card 1: Tentang Usaha -->
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
             </svg>
           </div>
-          <div>
-            <h4 class="about-feature-title">Kegiatan Edukatif & Inspiratif</h4>
-            <p class="about-feature-text">Menghadirkan kegiatan interaktif yang memotivasi siswa untuk berani memulai dan mengembangkan ide usaha.</p>
+          <h3 class="about-card-title">📖 Tentang Usaha</h3>
+          <p class="about-card-text">
+            <strong>Latar belakang:</strong> Menumbuhkan jiwa wirausaha siswa SMK YAPRI Jakarta<br><br>
+            <strong>Tim:</strong> Intan, Sherly, Shalumsyah<br><br>
+            <strong>Nilai:</strong> Mandiri, kreatif, edukatif
+          </p>
+        </div>
+
+        <!-- Card 2: HPP -->
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/>
+              <path d="M12 18V6"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">💰 Harga Pokok Produksi (HPP)</h3>
+          <p class="about-card-text">
+            <strong>Total biaya:</strong> Rp165.000<br><br>
+            <strong>Per bungkus:</strong> Rp2.750<br><br>
+            <strong>Komponen:</strong> Bahan baku, tenaga kerja, overhead
+          </p>
+        </div>
+
+        <!-- Card 3: RAB -->
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+              <path d="M3 3v18h18"/>
+              <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">📊 Rencana Anggaran Biaya (RAB)</h3>
+          <p class="about-card-text">
+            <strong>Modal awal:</strong> Rp800.000<br><br>
+            <strong>Terdiri dari:</strong> Bahan baku, tenaga kerja, operasional, promosi
+          </p>
+        </div>
+
+        <!-- Card 4: BEP -->
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+              <path d="M12 3v18"/>
+              <path d="m8 8 4-5 4 5"/>
+              <path d="M8 16l4 5 4-5"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">⚖️ Break Even Point (BEP)</h3>
+          <p class="about-card-text">
+            <strong>BEP:</strong> 111 bungkus<br><br>
+            <strong>Keuntungan:</strong> Rp7.250 per bungkus
+          </p>
+        </div>
+
+        <!-- Card 5: Pengembalian Modal -->
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">⏳ Pengembalian Modal</h3>
+          <p class="about-card-text">
+            <strong>Penjualan:</strong> 60 bungkus/hari<br><br>
+            <strong>Laba:</strong> Rp435.000/hari<br><br>
+            <strong>Balik modal:</strong> ± 2 hari
+          </p>
+        </div>
+
+        <!-- Card 6: Strategi & Edukasi -->
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">📈 Strategi & Edukasi</h3>
+          <p class="about-card-text">
+            • Gunakan bahan lokal<br>
+            • Promosi media sosial & word of mouth<br>
+            • Evaluasi berkala<br>
+            • Media pembelajaran wirausaha siswa
+          </p>
+        </div>
+      </div>
+
+      <!-- Pembahasan Materi Section -->
+      <div class="materi-section">
+        <h3 class="materi-main-title">Pembahasan <span class="gradient-text">Materi</span></h3>
+        <p class="materi-subtitle">Penjelasan lengkap mengenai konsep-konsep dasar perencanaan bisnis yang diajarkan kepada siswa SMK</p>
+        
+        <div class="materi-grid">
+          <!-- Materi 1: HPP -->
+          <div class="materi-card">
+            <div class="materi-header">
+              <div class="materi-icon">
+                <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/>
+                  <path d="M12 18V6"/>
+                </svg>
+              </div>
+              <h4 class="materi-title">Harga Pokok Produksi (HPP)</h4>
+            </div>
+            <div class="materi-content">
+              <p class="materi-description">
+                HPP adalah total biaya yang digunakan untuk memproduksi suatu barang. HPP penting untuk menentukan harga jual agar usaha tidak mengalami kerugian.
+              </p>
+              <div class="materi-details">
+                <h5>Komponen HPP:</h5>
+                <ul>
+                  <li><strong>Bahan Baku:</strong> Semua bahan mentah yang digunakan dalam produksi</li>
+                  <li><strong>Tenaga Kerja:</strong> Biaya upah pekerja yang terlibat langsung dalam produksi</li>
+                  <li><strong>Biaya Overhead:</strong> Biaya tidak langsung seperti listrik, air, dan sewa tempat</li>
+                </ul>
+              </div>
+              <div class="materi-formula">
+                <span class="formula-label">Rumus:</span>
+                <code>HPP = Bahan Baku + Tenaga Kerja + Overhead</code>
+              </div>
+            </div>
+          </div>
+
+          <!-- Materi 2: RAB -->
+          <div class="materi-card">
+            <div class="materi-header">
+              <div class="materi-icon">
+                <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+                  <path d="M3 3v18h18"/>
+                  <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/>
+                </svg>
+              </div>
+              <h4 class="materi-title">Rencana Anggaran Biaya (RAB)</h4>
+            </div>
+            <div class="materi-content">
+              <p class="materi-description">
+                RAB adalah perencanaan seluruh biaya yang dibutuhkan sebelum memulai usaha. Dengan RAB, pengeluaran menjadi lebih terkontrol dan terukur.
+              </p>
+              <div class="materi-details">
+                <h5>Komponen RAB:</h5>
+                <ul>
+                  <li><strong>Biaya Bahan Baku:</strong> Estimasi pembelian bahan mentah</li>
+                  <li><strong>Biaya Tenaga Kerja:</strong> Upah yang akan dibayarkan</li>
+                  <li><strong>Biaya Operasional:</strong> Transportasi, listrik, sewa</li>
+                  <li><strong>Biaya Promosi:</strong> Marketing dan iklan</li>
+                </ul>
+              </div>
+              <div class="materi-highlight">
+                <span>Modal Awal Contoh:</span>
+                <strong>Rp 800.000</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Materi 3: BEP -->
+          <div class="materi-card">
+            <div class="materi-header">
+              <div class="materi-icon">
+                <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+                  <path d="M12 3v18"/>
+                  <path d="m8 8 4-5 4 5"/>
+                  <path d="M8 16l4 5 4-5"/>
+                </svg>
+              </div>
+              <h4 class="materi-title">Break Even Point (BEP)</h4>
+            </div>
+            <div class="materi-content">
+              <p class="materi-description">
+                BEP adalah titik dimana usaha tidak untung dan tidak rugi. Artinya total pendapatan sama dengan total biaya yang dikeluarkan.
+              </p>
+              <div class="materi-details">
+                <h5>Cara Menghitung BEP:</h5>
+                <ul>
+                  <li><strong>BEP Unit:</strong> Jumlah produk yang harus dijual untuk balik modal</li>
+                  <li><strong>BEP Rupiah:</strong> Nilai penjualan untuk mencapai titik impas</li>
+                </ul>
+              </div>
+              <div class="materi-formula">
+                <span class="formula-label">Rumus:</span>
+                <code>BEP = Biaya Tetap / (Harga Jual - HPP per Unit)</code>
+              </div>
+            </div>
+          </div>
+
+          <!-- Materi 4: Keuntungan -->
+          <div class="materi-card">
+            <div class="materi-header">
+              <div class="materi-icon">
+                <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                </svg>
+              </div>
+              <h4 class="materi-title">Perhitungan Keuntungan</h4>
+            </div>
+            <div class="materi-content">
+              <p class="materi-description">
+                Keuntungan diperoleh dari selisih antara harga jual dan HPP. Semakin besar selisih, semakin besar profit yang didapatkan.
+              </p>
+              <div class="materi-details">
+                <h5>Contoh Perhitungan:</h5>
+                <ul>
+                  <li><strong>Harga Jual:</strong> Rp 10.000 per bungkus</li>
+                  <li><strong>HPP:</strong> Rp 2.750 per bungkus</li>
+                  <li><strong>Keuntungan:</strong> Rp 7.250 per bungkus</li>
+                </ul>
+              </div>
+              <div class="materi-formula">
+                <span class="formula-label">Rumus:</span>
+                <code>Keuntungan = Harga Jual - HPP</code>
+              </div>
+            </div>
+          </div>
+
+          <!-- Materi 5: Pengembalian Modal -->
+          <div class="materi-card">
+            <div class="materi-header">
+              <div class="materi-icon">
+                <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </div>
+              <h4 class="materi-title">Pengembalian Modal</h4>
+            </div>
+            <div class="materi-content">
+              <p class="materi-description">
+                Menghitung berapa lama waktu yang dibutuhkan untuk mengembalikan modal awal berdasarkan laba harian yang didapatkan.
+              </p>
+              <div class="materi-details">
+                <h5>Contoh Perhitungan:</h5>
+                <ul>
+                  <li><strong>Modal Awal:</strong> Rp 800.000</li>
+                  <li><strong>Penjualan/Hari:</strong> 60 bungkus</li>
+                  <li><strong>Laba/Hari:</strong> 60 x Rp 7.250 = Rp 435.000</li>
+                  <li><strong>Balik Modal:</strong> 800.000 / 435.000 = ± 2 hari</li>
+                </ul>
+              </div>
+              <div class="materi-formula">
+                <span class="formula-label">Rumus:</span>
+                <code>Waktu Balik Modal = Modal Awal / Laba per Hari</code>
+              </div>
+            </div>
+          </div>
+
+          <!-- Materi 6: Edukasi Wirausaha -->
+          <div class="materi-card">
+            <div class="materi-header">
+              <div class="materi-icon">
+                <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                </svg>
+              </div>
+              <h4 class="materi-title">Edukasi Wirausaha</h4>
+            </div>
+            <div class="materi-content">
+              <p class="materi-description">
+                Materi ini membantu siswa memahami dasar bisnis secara nyata, sehingga dapat menumbuhkan jiwa kewirausahaan sejak dini.
+              </p>
+              <div class="materi-details">
+                <h5>Manfaat Edukasi:</h5>
+                <ul>
+                  <li><strong>Pemahaman Bisnis:</strong> Siswa memahami konsep dasar berbisnis</li>
+                  <li><strong>Kemandirian:</strong> Mendorong siswa untuk mandiri secara finansial</li>
+                  <li><strong>Kreativitas:</strong> Merangsang ide-ide bisnis kreatif</li>
+                  <li><strong>Problem Solving:</strong> Melatih kemampuan menyelesaikan masalah</li>
+                </ul>
+              </div>
+              <div class="materi-highlight">
+                <span>Target:</span>
+                <strong>Siswa SMK YAPRI Jakarta</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Materi 10: Branding & Pemasaran Digital (Versi Maksimal) -->
+          <div class="materi-card">
+            <div class="materi-header">
+              <div class="materi-icon">
+                <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                </svg>
+              </div>
+              <h4 class="materi-title">Branding & Pemasaran Digital</h4>
+            </div>
+            <div class="materi-content">
+              <p class="materi-description">
+                Membangun identitas unik untuk produk Keripik Pisang Lumer agar memiliki daya saing tinggi di pasar digital melalui pendekatan visual yang menarik dan interaksi aktif dengan pelanggan.
+              </p>
+              <div class="materi-details">
+                <h5>Strategi Pemasaran & Evaluasi:</h5>
+                <ul>
+                  <li><strong>Identitas Visual & Packaging:</strong> Mendesain logo dan kemasan yang "Instagrammable" untuk meningkatkan nilai jual serta daya tarik di rak display atau marketplace.</li>
+                  <li><strong>Konten Kreatif Digital:</strong> Teknik pembuatan video pendek (Reels/TikTok) yang menunjukkan kelezatan cokelat lumer (food porn) guna memicu rasa lapar calon pembeli.</li>
+                  <li><strong>Optimasi Media Sosial:</strong> Mempelajari jam posting terbaik dan penggunaan hashtag yang relevan agar produk lebih mudah ditemukan oleh target audiens di wilayah Jakarta.</li>
+                  <li><strong>Analisis Feedback Pelanggan:</strong> Mengumpulkan ulasan atau testimoni pelanggan sebagai bahan evaluasi kualitas rasa dan pelayanan untuk inovasi produk ke depannya.</li>
+                  <li><strong>Customer Retention:</strong> Cara memberikan promo atau layanan khusus (seperti kartu ucapan) agar pembeli merasa dihargai dan melakukan pemesanan ulang (repeat order).</li>
+                </ul>
+              </div>
+              <div class="materi-highlight">
+                <span>Strategi Utama:</span>
+                <strong>Konsistensi Konten & Interaksi</strong>
+              </div>
+            </div>
+          </div>
+          <!-- Materi 7: Keripik Pisang Lumer -->
+          <div class="materi-card materi-card-featured">
+            <div class="materi-header">
+              <div class="materi-icon">
+                <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+                  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2"/>
+                  <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                  <line x1="9" y1="9" x2="9.01" y2="9"/>
+                  <line x1="15" y1="9" x2="15.01" y2="9"/>
+                </svg>
+              </div>
+              <h4 class="materi-title">Keripik Pisang Lumer sebagai Media Belajar Nyata</h4>
+            </div>
+            <div class="materi-content">
+              <p class="materi-description">
+                Usaha keripik pisang lumer dipilih sebagai media pembelajaran nyata karena prosesnya sederhana, modal terjangkau, dan potensi keuntungan yang menjanjikan bagi siswa SMK.
+              </p>
+              <div class="materi-details">
+                <h5>Mengapa Keripik Pisang Lumer?</h5>
+                <ul>
+                  <li><strong>Bahan Mudah Didapat:</strong> Pisang tersedia melimpah di pasar lokal dengan harga terjangkau</li>
+                  <li><strong>Proses Sederhana:</strong> Teknik pembuatan mudah dipelajari oleh siswa</li>
+                  <li><strong>Modal Kecil:</strong> Hanya membutuhkan modal awal sekitar Rp 800.000</li>
+                  <li><strong>Margin Tinggi:</strong> Keuntungan per bungkus mencapai Rp 7.250 (72.5%)</li>
+                  <li><strong>Pasar Luas:</strong> Camilan favorit semua kalangan usia</li>
+                </ul>
+              </div>
+              <div class="materi-details">
+                <h5>Pembelajaran yang Didapat:</h5>
+                <ul>
+                  <li><strong>Produksi:</strong> Siswa belajar proses produksi dari awal hingga akhir</li>
+                  <li><strong>Kalkulasi:</strong> Menghitung HPP, RAB, BEP secara langsung</li>
+                  <li><strong>Pemasaran:</strong> Strategi promosi dan penjualan produk</li>
+                  <li><strong>Manajemen:</strong> Mengelola keuangan dan stok barang</li>
+                </ul>
+              </div>
+              <div class="materi-highlight">
+                <span>Produk Unggulan:</span>
+                <strong>Keripik Pisang Lumer Coklat</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Materi 8: Ajakan Wirausaha -->
+          <div class="materi-card materi-card-cta">
+            <div class="materi-header">
+              <div class="materi-icon">
+                <svg class="icon-lg" viewBox="0 0 24 24" stroke="white">
+                  <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                  <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+                  <path d="M12 2v2"/>
+                </svg>
+              </div>
+              <h4 class="materi-title">Tumbuhkan Jiwa Wirausaha Sejak Dini</h4>
+            </div>
+            <div class="materi-content">
+              <p class="materi-description">
+                Menjadi wirausaha bukan hanya tentang mencari uang, tetapi tentang menciptakan nilai, memecahkan masalah, dan berkontribusi bagi masyarakat. Mulailah dari sekarang!
+              </p>
+              <div class="materi-details">
+                <h5>Alasan Memulai Wirausaha Sejak Dini:</h5>
+                <ul>
+                  <li><strong>Kemandirian Finansial:</strong> Tidak bergantung pada orang lain untuk penghasilan</li>
+                  <li><strong>Pengalaman Berharga:</strong> Belajar dari kegagalan dan kesuksesan</li>
+                  <li><strong>Kreativitas Terasah:</strong> Menemukan solusi untuk berbagai tantangan</li>
+                  <li><strong>Jaringan Luas:</strong> Membangun relasi dengan berbagai pihak</li>
+                  <li><strong>Masa Depan Cerah:</strong> Menciptakan lapangan kerja, bukan mencari kerja</li>
+                </ul>
+              </div>
+              <div class="materi-details">
+                <h5>Langkah Memulai:</h5>
+                <ul>
+                  <li><strong>Temukan Passion:</strong> Pilih bidang yang kamu sukai</li>
+                  <li><strong>Mulai dari Kecil:</strong> Tidak perlu modal besar untuk memulai</li>
+                  <li><strong>Belajar Terus:</strong> Ikuti pelatihan dan workshop</li>
+                  <li><strong>Jangan Takut Gagal:</strong> Kegagalan adalah guru terbaik</li>
+                </ul>
+              </div>
+              <div class="materi-cta">
+                <p class="cta-text">"Masa depan adalah milik mereka yang berani memulai hari ini"</p>
+                <span class="cta-badge">Jadilah Wirausaha Muda!</span>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </div>
@@ -179,11 +583,11 @@
       <div class="team-grid">
         <div class="team-card">
           <div class="team-avatar">
-            <img src="foto/diki.jpg" alt="Diki Almaki">
+            <img src="foto/profil/profil 2.JPEG" alt="Intan Kurnia">
           </div>
-          <h3 class="team-name">DIKI ALMAKI</h3>
+          <h3 class="team-name">Intan Kurnia</h3>
           <p class="team-role">Ketua</p>
-          <p class="team-bio">Memimpin dengan visi dan semangat. Diki mendorong inisiatif strategis kami dan memastikan setiap anggota merasa dihargai.</p>
+          <p class="team-bio">Memimpin dengan visi dan semangat. Intan mendorong inisiatif strategis kami dan memastikan setiap anggota merasa dihargai.</p>
           <div class="team-socials">
             <a href="#" class="team-social" aria-label="WhatsApp">
               <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
@@ -207,67 +611,11 @@
         </div>
         <div class="team-card">
           <div class="team-avatar">
-            <img src="images/team/michael-chen.jpg" alt="nanang ">
+            <img src="foto/profil/profil 1.PNG" alt="Sherly ">
           </div>
-          <h3 class="team-name">Nanang</h3>
-          <p class="team-role">Wakil Ketua</p>
-          <p class="team-bio">Seorang wakil ketua yang memiliki kemampuan organisasi dan komunikasi yang baik. Bertanggung jawab dalam mengoordinasikan kegiatan serta menjalin kerja sama dalam pelaksanaan program PKM.</p>
-          <div class="team-socials">
-            <a href="#" class="team-social" aria-label="WhatsApp">
-              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
-                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
-              </svg>
-            </a>
-            <a href="#" class="team-social" aria-label="Instagram">
-              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
-                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-              </svg>
-            </a>
-            <a href="#" class="team-social" aria-label="Email">
-              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                <polyline points="22,6 12,13 2,6"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="team-card">
-          <div class="team-avatar">
-            <img src="images/team/emily-rodriguez.jpg" alt="Intan">
-          </div>
-          <h3 class="team-name">Intan Jelek</h3>
-          <p class="team-role">Diem Aja</p>
-          <p class="team-bio">Ga ada kontirbus.</p>
-          <div class="team-socials">
-            <a href="#" class="team-social" aria-label="WhatsApp">
-              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
-                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
-              </svg>
-            </a>
-            <a href="#" class="team-social" aria-label="Instagram">
-              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
-                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-              </svg>
-            </a>
-            <a href="#" class="team-social" aria-label="Email">
-              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                <polyline points="22,6 12,13 2,6"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="team-card">
-          <div class="team-avatar">
-            <img src="images/team/kesa" alt="Kesa">
-          </div>
-          <h3 class="team-name">Kesa Kesa</h3>
+          <h3 class="team-name">Sherly</h3>
           <p class="team-role">Anggota</p>
-          <p class="team-bio">Anggota.</p>
+          <p class="team-bio">Seorang anggota yang memiliki kemampuan organisasi dan komunikasi yang baik</p>
           <div class="team-socials">
             <a href="#" class="team-social" aria-label="WhatsApp">
               <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
@@ -291,39 +639,11 @@
         </div>
         <div class="team-card">
           <div class="team-avatar">
-            <img src="images/team/anton.jpg" alt="Anton">
+            <img src="foto/profil/profil 3.PNG" alt="Shalumsyah">
           </div>
-          <h3 class="team-name">Anton</h3>
-          <p class="team-role">Tukang Makan</p>
-          <p class="team-bio">Jagoan Dapur.</p>
-          <div class="team-socials">
-            <a href="#" class="team-social" aria-label="WhatsApp">
-              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
-                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
-              </svg>
-            </a>
-            <a href="#" class="team-social" aria-label="Instagram">
-              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
-                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-              </svg>
-            </a>
-            <a href="#" class="team-social" aria-label="Email">
-              <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                <polyline points="22,6 12,13 2,6"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="team-card">
-          <div class="team-avatar">
-            <img src="images/team/kicaw.jpg" alt="kicaw">
-          </div>
-          <h3 class="team-name">Kicaw Mania</h3>
-          <p class="team-role">Dokumentas</p>
-          <p class="team-bio">tukang foto.</p>
+          <h3 class="team-name">Shalumsyah</h3>
+          <p class="team-role">Anggota</p>
+          <p class="team-bio">Bertanggung jawab dalam mengoordinasikan kegiatan serta menjalin kerja sama dalam pelaksanaan program PKM</p>
           <div class="team-socials">
             <a href="#" class="team-social" aria-label="WhatsApp">
               <svg class="icon" viewBox="0 0 24 24" stroke="currentColor">
@@ -352,7 +672,7 @@
   <!-- Timeline Section -->
   <section class="section timeline" id="journey">
     <div class="container">
-      <h2 class="section-title">Perjalanan <span class="gradient-text">Kami</span></h2>
+      <h2 class="section-title">RUNDOWN ACARA  <span class="gradient-text">WORKSHOP WIRAUSAHA</span></h2>
       <p class="section-subtitle">
         Dari langkah awal hingga menghasilkan dampak nyata. Ikuti perjalanan kami dalam melaksanakan kegiatan Pengabdian kepada Masyarakat (PKM) dan berbagai pencapaian yang telah diraih.
       </p>
@@ -362,29 +682,16 @@
         <div class="timeline-item">
           <div class="timeline-marker">
             <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
-              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
             </svg>
           </div>
           <div class="timeline-content">
-            <span class="timeline-date">2026</span>
-            <h3 class="timeline-title">Pembentukan Kelompok</h3>
-            <p class="timeline-text">Lagi gabut tiba tiba kepingin ribet tapi rame rame.</p>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-marker">
-            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
-              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-              <circle cx="9" cy="7" r="4"/>
-              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-            </svg>
-          </div>
-          <div class="timeline-content">
-            <span class="timeline-date">2026</span>
-            <h3 class="timeline-title">Rekrutan pertama</h3>
-            <p class="timeline-text">Intan menjadi korban pertama.</p>
+            <span class="timeline-date">SMKS Yapri Jakarta. Kamis, 23 April 2026</span><span class="timeline-date">11.00 - 11.15</span>
+            <h3 class="timeline-title">Peserta masuk ruangan dan Pembukaan oleh MC</h3>
+            <p class="timeline-text">Siwa, Siswi kelas 3 & Luvita Adi Agusti</p>
           </div>
         </div>
 
@@ -398,22 +705,185 @@
             </svg>
           </div>
           <div class="timeline-content">
-            <span class="timeline-date">2026</span>
-            <h3 class="timeline-title">Kemimpinan Diki</h3>
-            <p class="timeline-text">Diki menunjukan aura farming dengan elegan.</p>
+            <span class="timeline-date">SMKS Yapri Jakarta. Kamis, 23 April 2026</span><span class="timeline-date">11.15 - 11.25</span>
+            <h3 class="timeline-title">Sambutan Dosen Pembimbing</h3>
+            <p class="timeline-text">Muhammad Gandung, S.E., M.M.</p>
           </div>
         </div>
 
         <div class="timeline-item">
           <div class="timeline-marker">
             <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
-              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
             </svg>
           </div>
           <div class="timeline-content">
-            <span class="timeline-date">2024</span>
-            <h3 class="timeline-title">Pelaksanaan</h3>
-            <p class="timeline-text">Melakukan kegiatan di hari h.</p>
+            <span class="timeline-date">SMKS Yapri Jakarta. Kamis, 23 April 2026</span><span class="timeline-date">11.26 – 11.35</span>
+            <h3 class="timeline-title">Sambutan Kepala Sekkolah SMKS Yapri Jakarta</h3>
+            <p class="timeline-text">Rifqy Fauzan, S.Sos.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">SMKS Yapri Jakarta. Kamis, 23 April 2026</span><span class="timeline-date">11.35 – 11.40</span>
+            <h3 class="timeline-title">Sambutan Ketua Pelaksana PKM</h3>
+            <p class="timeline-text">Kartika</p>
+          </div>
+        </div>
+
+                <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">SMKS Yapri Jakarta. Kamis, 23 April 2026</span><span class="timeline-date">11.40 – 11.50</span>
+            <h3 class="timeline-title">Penjelasan Materi 1  (Kelompok 1)</h3>
+            <p class="timeline-text">Pengembangan Jiwa Wirausaha Siswa Melalui Workshop Produksi Keripik Pisang Lumer Sebagai Peluang Usaha Kreatif di SMK Yapri Jakarta.</p>
+          </div>
+        </div>
+
+                <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">SMKS Yapri Jakarta. Kamis, 23 April 2026</span><span class="timeline-date">11.50 – 12.00</span>
+            <h3 class="timeline-title">Penjelasan Materi 2 (Kelompok 2)</h3>
+            <p class="timeline-text">Penerapan Manajemen Keuangan Sederhana Dalam Produksi Keripik Pisang Lumer</p>
+          </div>
+        </div>
+
+                <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">SMKS Yapri Jakarta. Kamis, 23 April 2026</span><span class="timeline-date">12.00</span>
+            <h3 class="timeline-title">Break Adzan</h3>
+            <p class="timeline-text">-</p>
+          </div>
+        </div>
+
+                <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">SMKS Yapri Jakarta. Kamis, 23 April 2026</span><span class="timeline-date">12.05 – 12.15</span>
+            <h3 class="timeline-title">Penjelasan Materi 3 (Kelompok 3)</h3>
+            <p class="timeline-text">Strategi Pengelolaan Modal dan Perhitungan Harga Pokok Produksi (HPP) Pada Usaha Keripik Pisang Lumer</p>
+          </div>
+        </div>
+
+                <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">SMKS Yapri Jakarta. Kamis, 23 April 2026</span><span class="timeline-date">12.15 – 12.25</span>
+            <h3 class="timeline-title">Penjelasan Materi 4 (Kelompok 4)</h3>
+            <p class="timeline-text">Pelatihan Pencatatan Keuangan dan Analisis Laba Rugi pada Usaha Keripik Pisang Lumer</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">SMKS Yapri Jakarta. Kamis, 23 April 2026</span><span class="timeline-date">12.25 – 13.00</span>
+            <h3 class="timeline-title">ISOMA</h3>
+            <p class="timeline-text">-</p>
+          </div>
+        </div>
+
+         <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">SMKS Yapri Jakarta. Kamis, 23 April 2026</span><span class="timeline-date">13.00 – 13.20</span>
+            <h3 class="timeline-title">Praktik Pembuatan Keripik Pisang Lumer</h3>
+            <p class="timeline-text">Melakukan Kegiatan Proses Pembuatan Keripik Pisang Lumer Hingga Proses Packing</p>
+          </div>
+        </div>
+
+          <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">SMKS Yapri Jakarta. Kamis, 23 April 2026</span><span class="timeline-date">13.20 – 13.30</span>
+            <h3 class="timeline-title">Tanya Jawab & Mini Game</h3>
+            <p class="timeline-text">Pelaksana dan Peserta bebas untuk saling bertanya mengenai materi praktik Keripik Pisang Lumer</p>
+          </div>
+        </div>
+
+                        <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg class="icon" viewBox="0 0 24 24" stroke="var(--color-primary)">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">SMKS Yapri Jakarta. Kamis, 23 April 2026</span><span class="timeline-date">13.30 – 13.40</span>
+            <h3 class="timeline-title">Dokumentasi</h3>
+            <p class="timeline-text">Foto Bersama Dosen, Guru dan siswa yang telah berpartisipasi</p>
           </div>
         </div>
 
@@ -425,9 +895,9 @@
             </svg>
           </div>
           <div class="timeline-content">
-            <span class="timeline-date">2026</span>
-            <h3 class="timeline-title">Penghargaan untuk Tim ini</h3>
-            <p class="timeline-text">Cukup dengan Acungkan Jempol saja.</p>
+            <span class="timeline-date">SMKS Yapri Jakarta. Kamis, 23 April 2026</span><span class="timeline-date">13.40 - Selesai</span>
+            <h3 class="timeline-title">Penutupan Oleh MC</h3>
+            <p class="timeline-text">Ucapan rasa syukur dan terimakasih kepada semua yang telah berpartisipasi (Dosen, Kepsek, Teman – Teman Mahasiswa, Adik – Adik dari SMK Yapri Jakarta) atas kelancaran acara yang berlangsung.</p>
           </div>
         </div>
       </div>
@@ -437,83 +907,85 @@
  <!-- Gallery Section -->
 <section class="section gallery" id="gallery">
   <div class="container">
-    <h2 class="section-title">Activity <span class="gradient-text">Gallery</span></h2>
+    <h2 class="section-title"><span class="gradient-text">Gallery</span></h2>
     <p class="section-subtitle">
-      Dokumentasi kegiatan Pengabdian kepada Masyarakat (PKM) di SMK yang berfokus pada edukasi dan pengembangan bisnis.
+      Dokumentasi kegiatan Pengabdian kepada Masyarakat (PKM) di SMKS Yapri Jakarta yang berfokus pada edukasi dan pengembangan bisnis.
     </p>
 
     <div class="gallery-grid">
 
       <div class="gallery-item">
-        <img src="foto/pkm1.jpg" alt="Kegiatan PKM">
+        <img src="dokumentasi/dFoto 1.jpg" alt="Kegiatan PKM">
         <div class="gallery-overlay">
           <h4 class="gallery-title">Kegiatan PKM</h4>
-          <p class="gallery-date">Mei 2026</p>
+          <p class="gallery-date">2026</p>
         </div>
       </div>
 
       <div class="gallery-item">
-        <img src="foto/pkm2.jpg" alt="Workshop Bisnis">
-        <div class="gallery-overlay">
-          <h4 class="gallery-title">Workshop Bisnis</h4>
-          <p class="gallery-date">Mei 2026</p>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="foto/pkm3.jpg" alt="Presentasi Siswa">
-        <div class="gallery-overlay">
-          <h4 class="gallery-title">Presentasi Siswa</h4>
-          <p class="gallery-date">Mei 2026</p>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="foto/pkm4.jpg" alt="Diskusi Kelompok">
-        <div class="gallery-overlay">
-          <h4 class="gallery-title">Diskusi Kelompok</h4>
-          <p class="gallery-date">Mei 2026</p>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="foto/pkm5.jpg" alt="Pelatihan Bisnis">
-        <div class="gallery-overlay">
-          <h4 class="gallery-title">Pelatihan Bisnis</h4>
-          <p class="gallery-date">Mei 2026</p>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="foto/pkm6.jpg" alt="Foto Bersama">
+        <img src="dokumentasi/dFoto 2.jpg" alt="Foto Bersama">
         <div class="gallery-overlay">
           <h4 class="gallery-title">Foto Bersama</h4>
-          <p class="gallery-date">Mei 2026</p>
+          <p class="gallery-date">2026</p>
         </div>
       </div>
 
       <div class="gallery-item">
-        <img src="foto/pkm7.jpg" alt="Kegiatan Lapangan">
+        <img src="dokumentasi/dFoto 3.jpg" alt="Presentasi">
         <div class="gallery-overlay">
-          <h4 class="gallery-title">Kegiatan Lapangan</h4>
-          <p class="gallery-date">Mei 2026</p>
+          <h4 class="gallery-title">Presentasi</h4>
+          <p class="gallery-date">2026</p>
         </div>
       </div>
 
       <div class="gallery-item">
-        <img src="foto/pkm8.jpg" alt="Sesi Tanya Jawab">
+      <img src="dokumentasi/dFoto 4.png" alt="Tanya Jawab">
         <div class="gallery-overlay">
-          <h4 class="gallery-title">Sesi Tanya Jawab</h4>
-          <p class="gallery-date">Mei 2026</p>
+          <h4 class="gallery-title">Tanya Jawab</h4>
+          <p class="gallery-date">2026</p>
         </div>
       </div>
 
-    </div>
+      <div class="gallery-item">
+        <video class="gallery-video" autoplay muted loop playsinline>
+           <source src="dokumentasi/Dokumentasi 2.mp4" type="video/mp4">
+        </video>
+        <div class="gallery-overlay">
+          <h4 class="gallery-title">Pelatihan Bisnis</h4>
+          <p class="gallery-date">2026</p>
+        </div>
+      </div>
 
-    <div class="gallery-cta">
-      <a href="#" class="btn btn-secondary">
-        Lihat Semua Dokumentasi
-      </a>
+      <div class="gallery-item">
+          <video class="gallery-video" autoplay muted loop playsinline>
+           <source src="dokumentasi/Dokumentasi 3.mp4" type="video/mp4">
+        </video>
+        <div class="gallery-overlay">
+          <h4 class="gallery-title">Diskusi Bersama</h4>
+          <p class="gallery-date">2026</p>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <video class="gallery-video" autoplay muted loop playsinline>
+           <source src="dokumentasi/Dokumentasi 4.mp4" type="video/mp4">
+        </video>
+        <div class="gallery-overlay">
+          <h4 class="gallery-title">Penjelasan</h4>
+          <p class="gallery-date">2026</p>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <video class="gallery-video" autoplay muted loop playsinline>
+           <source src="dokumentasi/Dokumentasi 1.mp4" type="video/mp4">
+        </video>
+        <div class="gallery-overlay">
+          <h4 class="gallery-title">Materi</h4>
+          <p class="gallery-date">2026</p>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -559,7 +1031,7 @@
         <div class="footer-column">
           <h4>Contact</h4>
           <ul class="footer-links">
-            <li><a href="mailto:dikilagu123@gmail.com">diki@gmail.com</a></li>
+            <li><a href="mailto:pkmnextproject">pkmnextproject@gmail.com</a></li>
             <li><a href="tel:0857179257**">0857179257**</a></li>
             <li><a href="#About">Gedung B, Lt.6, Raungan 621</a></li>
             <li><a href="#About">Universitas Pamulang</a></li>

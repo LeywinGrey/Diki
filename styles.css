@@ -103,6 +103,76 @@ body {
   border-color: var(--color-primary);
 }
 
+/* ========== PLAY BUTTON WRAPPER ========== */
+    .btn-play-wrapper {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.875rem 1.75rem;
+      border-radius: 0.75rem;
+      font-weight: 600;
+      font-size: 0.9375rem;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      border: none;
+      background: var(--gradient);
+      color: white;
+      box-shadow: 0 4px 15px rgba(99,102,241,0.4);
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-play-wrapper:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(99,102,241,0.6);
+    }
+    .btn-play-wrapper::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    /* The animated play circle icon */
+    .play-icon-circle {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      position: relative;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+    .btn-play-wrapper:hover .play-icon-circle {
+      background: rgba(255,255,255,0.4);
+      transform: scale(1.1);
+    }
+    /* Ripple ring on play icon */
+    .play-icon-circle::after {
+      content: '';
+      position: absolute;
+      inset: -3px;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.4);
+      animation: play-ring-pulse 2s ease-in-out infinite;
+    }
+    @keyframes play-ring-pulse {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 0; transform: scale(1.4); }
+    }
+    .play-icon-circle svg {
+      width: 0.875rem;
+      height: 0.875rem;
+      fill: white;
+      stroke: none;
+      margin-left: 2px; /* optical centering for play triangle */
+    }
+    .btn-play-label { font-size: 0.9375rem; font-weight: 700; letter-spacing: 0.01em; }
+
 /* Navbar */
 .navbar {
   position: fixed;
@@ -192,6 +262,28 @@ body {
   z-index: -1;
 }
 
+.hero-bg-image {
+  position: absolute;
+  inset: 0;
+  background-image: url('foto/hero-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*filter: blur(5px); ini untuk blurr foto*/
+  transform: scale(1.1);
+}
+
+.hero-bg-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(12, 22, 41, 0.75) 0%,
+    rgba(12, 22, 41, 0.85) 50%,
+    rgba(12, 22, 41, 0.95) 100%
+  );
+}
+
 .hero-blob {
   position: absolute;
   border-radius: 50%;
@@ -226,7 +318,8 @@ body {
 }
 
 .hero-content {
-  max-width: 800px;
+  max-width: 1200px; /* Lebarkan agar teks punya ruang */
+  width: 100%;
 }
 
 .hero-badge {
@@ -256,13 +349,13 @@ body {
 }
 
 .hero-title {
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(1.8rem, 4vw, 3rem); /* Ukuran lebih proposional */
   font-weight: 800;
-  line-height: 1.1;
-  margin-bottom: 1.5rem;
-  letter-spacing: -0.02em;
+  line-height: 1.2;
+  display: block;
+  width: 100%;
+  max-width: 1000px; /* Memberi ruang lebih lebar ke samping */
 }
-
 .hero-description {
   font-size: 1.25rem;
   color: var(--color-text-muted);
@@ -429,6 +522,253 @@ body {
 .about-feature-text {
   font-size: 0.875rem;
   color: var(--color-text-muted);
+}
+
+/* Materi Section */
+.materi-section {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.materi-main-title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.materi-subtitle {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+}
+
+.materi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.materi-card {
+  background: var(--color-bg);
+  border-radius: 1rem;
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.materi-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary);
+}
+
+.materi-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--color-bg-card);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.materi-icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  background: var(--gradient);
+  border-radius: 0.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.materi-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.materi-content {
+  padding: 1.5rem;
+}
+
+.materi-description {
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+  font-size: 0.9375rem;
+}
+
+.materi-details {
+  background: var(--color-bg-card);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.materi-details h5 {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--color-primary-light);
+  margin-bottom: 0.75rem;
+}
+
+.materi-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.materi-details li {
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.materi-details li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.materi-details li strong {
+  color: var(--color-text);
+}
+
+.materi-formula {
+  background: rgba(99, 102, 241, 0.1);
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  border-radius: 0.5rem;
+  padding: 0.875rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formula-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-primary-light);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.materi-formula code {
+  font-family: 'Fira Code', 'Consolas', monospace;
+  font-size: 0.875rem;
+  color: var(--color-text);
+  background: transparent;
+}
+
+.materi-highlight {
+  background: var(--gradient);
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.materi-highlight span {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.materi-highlight strong {
+  font-size: 1rem;
+  color: white;
+}
+
+/* Featured Materi Card */
+.materi-card-featured {
+  border: 2px solid transparent;
+  background: 
+    linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
+    var(--gradient) border-box;
+}
+
+.materi-card-featured .materi-header {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(168, 85, 247, 0.15));
+}
+
+/* CTA Materi Card */
+.materi-card-cta {
+  border: 2px solid transparent;
+  background: 
+    linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
+    linear-gradient(135deg, #f59e0b, #ef4444) border-box;
+}
+
+.materi-card-cta .materi-header {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(239, 68, 68, 0.15));
+}
+
+.materi-card-cta .materi-icon {
+  background: linear-gradient(135deg, #f59e0b, #ef4444);
+}
+
+.materi-cta {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(239, 68, 68, 0.1));
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.cta-text {
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--color-text);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.cta-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #f59e0b, #ef4444);
+  color: white;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+  .materi-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .materi-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+  }
+  
+  .materi-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+  }
+  
+  .materi-highlight {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  
+  .materi-cta {
+    padding: 1.25rem;
+  }
+  
+  .cta-text {
+    font-size: 1rem;
+  }
 }
 
 /* Team Section */
@@ -655,6 +995,14 @@ body {
 .gallery-item:hover {
   transform: scale(1.02);
   box-shadow: var(--shadow-lg);
+}
+
+.gallery-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
 }
 
 /* GAMBAR (INI PALING PENTING) */
