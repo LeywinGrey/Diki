@@ -1,0 +1,4 @@
+Perjalanan Kami ganti jadi penjalanan acara
+
+     <!----- <div class="hero-bg-image"></div>
+      <div class="hero-bg-overlay"></div>-----> ini untuk ganti backgroiung 
